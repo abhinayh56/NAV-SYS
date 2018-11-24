@@ -2,7 +2,7 @@
 const int MPU_addr=0x68; 
 float AcX,AcY,AcZ,Tmp,GyX,GyY,GyZ;
 float SampleFrequency = 250, dt = 1/SampleFrequency, loop_timer = 1000000*dt, t;
-//fffffffffffffffffffffffffffffffffffffff
+
 void setup(){
   Serial.begin(115200);
   Wire.begin();
