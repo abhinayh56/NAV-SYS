@@ -1,3 +1,5 @@
+// This comment is added in github
+
 #include<Wire.h>
 const int MPU_addr=0x68; 
 float AcX,AcY,AcZ,Tmp,GyX,GyY,GyZ;
